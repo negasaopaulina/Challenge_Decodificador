@@ -23,6 +23,9 @@ function encriptar(stringEncriptada) {
     return stringEncriptada;
 }
 
+    return stringEncriptada;
+}
+
 function btnDesencriptar() {
     const textoDesencriptado = desencriptar(inputOriginalOculto.value);
     mensagem.value = textoDesencriptado;
